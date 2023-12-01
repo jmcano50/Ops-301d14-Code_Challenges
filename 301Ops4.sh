@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Script Name:                  Ops Challenge: Conditionals in Menu Systems
+# Author:                       Juan Miguel Cano
+# Date of latest revision:      11/30/2023
+# Purpose:                      Create a simple menu system
+# Execution:                    bash 301Ops4.sh
+# Resources:                    https://chat.openai.com/share/be9a3e1a-66eb-43c6-9cd2-2b33a97ce900
+                
+
 while true; do
     clear
     echo "Menu:"
