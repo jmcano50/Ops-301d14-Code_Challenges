@@ -3,7 +3,7 @@
 while true; do
     clear
     echo "Menu:"
-    echo "1. Good Morning Marine"
+    echo "1. Hellow World Semper Fi"
     echo "2. Ping Self"
     echo "3. IP Info"
     echo "4. Exit"
@@ -12,7 +12,7 @@ while true; do
 
     case $choice in
         1)
-            echo "Good Morning Marine!"
+            echo "Hellow World Semper Fi!"
             ;;
         2)
             ping -c 4 127.0.0.1
