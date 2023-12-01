@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script:               301 Ops Challenge Day 2 
+# Script:               301 Append; Date and Time 
 # Author:               Juan Miguel Cano
 # Purpose:              
 # Variables:
