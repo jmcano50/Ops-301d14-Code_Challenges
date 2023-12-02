@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Script Name:                  Ops Challenge: Clearing Logs
 # Author:                       Juan Miguel Cano
 # Date of latest revision:      12/01/2023
