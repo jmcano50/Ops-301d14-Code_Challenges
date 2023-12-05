@@ -1,15 +1,25 @@
+# Python
+
+# Script Name:                  Ops Challenge: Bash in Python
+# Author:                       Juan Miguel Cano
+# Date of latest revision:      12/02/2023
+# Purpose:                      Ensures consistency and adherence to the Python naming conventions. 
+# Execution:                    31Ops6.py
+# Resource:                     https://chat.openai.com/share/bd8ae187-a9fe-4e88-847b-b1e798d3086d
+
+
 # Import the 'os' module
 import os
 
 # Declare and initialize variables
 variable1 = "GySgtCPD"
-Variable2 = 50
-Variable3 = True
+variable2 = 50
+variable3 = True
 
 # Print the variables
-print("Variable 1:", variable1)
-print("Variable 2:", Variable2)
-print("Variable 3:", Variable3)
+print("variable 1:", variable1)
+print("variable 2:", variable2)
+print("variable 3:", variable3)
 
 # Execute bash commands using the 'os' module
 # Command 1: whoami
