@@ -10,4 +10,4 @@ November 09, 2023
 - [Ops Challenge: File Permissions](301Ops3.sh)
 - [Conditionals in Menu Systems](301Ops4.md)
 - [Ops Challenge: Conditionals in Menu Systems](301Ops4.sh)
-
+- [Bash in Python](301Ops6.py)
