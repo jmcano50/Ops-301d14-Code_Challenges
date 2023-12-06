@@ -11,3 +11,4 @@ November 09, 2023
 - [Conditionals in Menu Systems](301Ops4.md)
 - [Ops Challenge: Conditionals in Menu Systems](301Ops4.sh)
 - [Bash in Python](301Ops6.py)
+- [Directiory Creation](301Ops7.py)
