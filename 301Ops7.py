@@ -4,9 +4,7 @@
 # Date of latest revision:      12/05/2023
 # Purpose:                      Traverse through directories, subdirectories and files in the provided path 
 # Execution:                    31Ops7.py
-# Resource:                     
-
-
+# Resource:                     https://chat.openai.com/share/5af8f845-bd4d-4094-a516-2342c2fc3846
 
 # Import libraries
 
