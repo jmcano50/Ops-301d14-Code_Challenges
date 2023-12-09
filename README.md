@@ -13,6 +13,6 @@ November 09, 2023
 - [Bash in Python](301Ops6.py)
 - [Directiory Creation](301Ops7.py)
 - [Python Collections](301Ops8.py)
-- [](301Ops9.py)
+- [Python Conditional Statements](301Ops9.py)
 - [Python File handling](301Ops10.py)
 
