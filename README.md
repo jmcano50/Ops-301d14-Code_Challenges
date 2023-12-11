@@ -18,6 +18,7 @@ November 09, 2023
 - [Directiory Creation](301Ops7.py)
 - [Ops Challenge: Python Collections](301Ops8.md)
 - [Python Collections](301Ops8.py)
+- [Ops Challenge: Python Conditional Statements](301Ops9.md)
 - [Python Conditional Statements](301Ops9.py)
 - [Python File handling](301Ops10.py)
 
