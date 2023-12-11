@@ -16,7 +16,7 @@ November 09, 2023
 - [Bash in Python](301Ops6.py)
 - [Ops Challenge: Directory Creation](301Ops7.md)
 - [Directiory Creation](301Ops7.py)
-- 
+- [Ops Challenge: Python Collections](301Ops8.md)
 - [Python Collections](301Ops8.py)
 - [Python Conditional Statements](301Ops9.py)
 - [Python File handling](301Ops10.py)
