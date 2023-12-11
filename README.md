@@ -20,5 +20,6 @@ November 09, 2023
 - [Python Collections](301Ops8.py)
 - [Ops Challenge: Python Conditional Statements](301Ops9.md)
 - [Python Conditional Statements](301Ops9.py)
+- [Ops Challenge: Python File Handling](301Ops10.md)
 - [Python File handling](301Ops10.py)
 
