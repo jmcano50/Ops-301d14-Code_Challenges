@@ -22,4 +22,8 @@ November 09, 2023
 - [Python Conditional Statements](301Ops9.py)
 - [Ops Challenge: Python File Handling](301Ops10.md)
 - [Python File handling](301Ops10.py)
+- [Ops Challenge: Psutil](301Ops11.md)
+- [Psutil](301Ops11.py)
+
+
 
