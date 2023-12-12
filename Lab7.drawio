@@ -1,53 +1,66 @@
 <mxfile host="65bd71144e">
     <diagram id="QGoIf2ZpQ1kTogcp-RNW" name="Page-1">
-        <mxGraphModel dx="1706" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2506" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="560" width="72" height="90" as="geometry"/>
+                <mxCell id="3" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="780" width="72" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;fontSize=23;strokeWidth=4;" edge="1" parent="1" source="5">
+                <mxCell id="27" style="edgeStyle=none;html=1;fontSize=23;strokeWidth=4;startArrow=none;" parent="1" source="32" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="385" y="460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="520" width="290" height="250" as="geometry"/>
+                <mxCell id="5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="740" width="290" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;fontSize=23;strokeWidth=4;" edge="1" parent="1" source="6">
+                <mxCell id="25" style="edgeStyle=none;html=1;fontSize=23;strokeWidth=4;" parent="1" source="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="375" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=none;html=1;strokeWidth=4;fontSize=23;" edge="1" parent="1" source="6">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="200" y="405" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="6" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
-                    <mxGeometry x="320" y="360" width="110" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_128x128.png" vertex="1" parent="1">
-                    <mxGeometry x="290" y="120" width="170" height="140" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="3">
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=1.109;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=27;strokeWidth=5;" edge="1" parent="1" source="6" target="28">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Linux Server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="315" y="780" width="140" height="40" as="geometry"/>
+                <mxCell id="6" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="320" y="360" width="110" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="NGINX&lt;br&gt;Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-                    <mxGeometry x="271" y="640" width="130" height="60" as="geometry"/>
+                <mxCell id="7" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="290" y="120" width="170" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;pfSense&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="3" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ubuntu Linux Server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="990" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="NGINX&lt;br&gt;Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="860" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;pfSense&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="440" y="385" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Internet&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="1">
+                <mxCell id="24" value="Internet&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" parent="1" vertex="1">
                     <mxGeometry x="325" y="70" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;fontSize=23;" vertex="1" parent="1">
+                <mxCell id="28" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;fontSize=23;" parent="1" vertex="1">
                     <mxGeometry x="10" y="360" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontSize=23;strokeWidth=4;endArrow=none;" edge="1" parent="1" source="5" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="385" y="460" as="targetPoint"/>
+                        <mxPoint x="385" y="740" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Azure_Firewall_Manager.svg;" vertex="1" parent="1">
+                    <mxGeometry x="303.34" y="510" width="163.33" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Port 8000&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="655" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Kali&lt;br&gt;User endpoint&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="465" width="220" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
