@@ -4,6 +4,7 @@
 # Date of latest revision:      12/12/2023
 # Purpose:                      Create a Python script that fetches this information using Psutil
 # Execution:                    31Ops10.py
+# Resources:                    https://chat.openai.com/share/f3c1d4af-ea60-45c1-8309-8f3f389a2fdf
 
 import psutil
 
