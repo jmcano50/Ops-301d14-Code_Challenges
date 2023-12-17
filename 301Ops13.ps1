@@ -1,35 +1,40 @@
-#!/usr/bin/env python3
 # Script Name:                  Ops Challenge: Powershell AD Automation
 # Author:                       Juan Miguel Cano
 # Date of latest revision:      12/13/2023
 # Purpose:                      To create a new user in Active Directory using PowerShell.
-# Execution:                    31Ops13.py
-# Resources:                    https://chat.openai.com/share/e5aeae62-9c9c-4395-adc3-854dc55de98d
 
-# Active Directory user creation script for Franz Ferdinand
+# Import the ActiveDirectory module
+Import-Module ActiveDirectory
 
 # User details
-$username = "FranzFerdianad" 
+$username = "FranzFerdinand" 
 $firstName = "Franz" 
 $lastName = "Ferdinand" 
-$ouPath = "OU=TPSDepartment,DC=GlobeX,DC=USA" # Update this with the correct Organizational Unit path
+$ouPath = "OU=Domain Controllers,DC=corp,DC=globexpower,DC=com" # This is the OU path
 $email = "ferdi@GlobeXpower.com" 
 $title = "TPS Reporting Lead" 
 $office = "Springfield, OR"
 
-# Creating the user
-New-ADUser -Name $username `
-    -GivenName $firstName `
-    -Surname $lastName `
-    -UserPrincipalName "$email" `
-    -EmailAddress $email `
-    -Title $title `
-    -Office $office `
-    -Path $ouPath `
-    -Enabled $true `
-    -AccountPassword (Read-Host -AsSecureString "Enter Password") `
-    -PassThru | Enable-ADAccount
+# Attempt to create the user
+try {
+    # Creating the user
+    $newUser = New-ADUser -Name $username `
+        -GivenName $firstName `
+        -Surname $lastName `
+        -UserPrincipalName "$email" `
+        -EmailAddress $email `
+        -Title $title `
+        -Office $office `
+        -Path $ouPath `
+        -Enabled $true `
+        -AccountPassword (Read-Host -AsSecureString "Enter Password") `
+        -PassThru
 
-# Output confirmation
-Write-Host "User $username created successfully."
+    # Enable the new user account
+    Enable-ADAccount -Identity $newUser
 
+    # Output confirmation
+    Write-Host "User $username created successfully."
+} catch {
+    Write-Host "Error creating user: $_"
+}
