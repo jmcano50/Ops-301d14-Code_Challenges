@@ -26,6 +26,8 @@ November 09, 2023
 - [Psutil](301Ops11.py)
 - [Ops Challenge: Python Requests Library](301Ops12.md)
 - [Python Requests Library](301Ops12.py)
+- [Powershell AD Automation](301Ops13.ps1)
+
 
 
 
