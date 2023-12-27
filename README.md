@@ -27,6 +27,7 @@ November 09, 2023
 - [Ops Challenge: Python Requests Library](301Ops12.md)
 - [Python Requests Library](301Ops12.py)
 - [Powershell AD Automation](301Ops13.ps1)
+- [Python Malware Analysis](301Ops14.py)
 
 
 
